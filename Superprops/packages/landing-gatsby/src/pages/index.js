@@ -1,59 +1,72 @@
-import React, { Fragment } from 'react';
-import Sticky from 'react-stickynode';
+import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { Modal } from '@redq/reuse-modal';
-import { agencyTheme } from 'common/theme/agency';
-import { ResetCSS } from 'common/assets/css/style';
-import { GlobalStyle, AgencyWrapper } from 'containers/Agency/agency.style';
-import Navbar from 'containers/Agency/Navbar';
-import BannerSection from 'containers/Agency/BannerSection';
-import FeatureSection from 'containers/Agency/FeatureSection';
-import AboutUsSection from 'containers/Agency/AboutUsSection';
-import WorkHistory from 'containers/Agency/WorkHistory';
-import BlogSection from 'containers/Agency/BlogSection';
-import TestimonialSection from 'containers/Agency/TestimonialSection';
-import TeamSection from 'containers/Agency/TeamSection';
-import VideoSection from 'containers/Agency/VideoSection';
-import FaqSection from 'containers/Agency/FaqSection';
-import NewsletterSection from 'containers/Agency/NewsletterSection';
-import QualitySection from 'containers/Agency/QualitySection';
-import Footer from 'containers/Agency/Footer';
+import { theme } from 'common/theme/appminimal';
 import { DrawerProvider } from 'common/contexts/DrawerContext';
-import '@redq/reuse-modal/es/index.css';
+import { ResetCSS } from 'common/assets/css/style';
+import Sticky from 'react-stickynode';
+import Navbar from 'containers/AppMinimal/Navbar';
+import Banner from 'containers/AppMinimal/Banner';
+import KeyFeatures from 'containers/AppMinimal/KeyFeatures';
+import ChooseUs from 'containers/AppMinimal/ChooseUs';
+import Features from 'containers/AppMinimal/Features';
+import WalletExperience from 'containers/AppMinimal/WalletExperience';
+import SecureTransaction from 'containers/AppMinimal/SecureTransaction';
+import WalletDashboard from 'containers/AppMinimal/WalletDashboard';
+import Track from 'containers/AppMinimal/Track';
+import Gallery from 'containers/AppMinimal/Gallery';
+import Counter from 'containers/AppMinimal/Counter';
+import Pricing from 'containers/AppMinimal/Pricing';
+import Blog from 'containers/AppMinimal/Blog';
+import CallToAction from 'containers/AppMinimal/CallToAction';
+import Footer from 'containers/AppMinimal/Footer';
 import Seo from 'components/seo';
 
-const Agency = () => {
+import GlobalStyle, {
+  AppWrapper,
+  ContentWrapper,
+  GradientWrapper,
+} from 'containers/AppMinimal/app-minimal.style';
+
+const AppMinimal = () => {
   return (
-    <ThemeProvider theme={agencyTheme}>
-      <Fragment>
-        <Seo title="Agency" />
-        <Modal />
+    <ThemeProvider theme={theme}>
+      <>
+        <Seo title="App Minimal | A react Gatsby landing page" />
+        {/* end of head */}
+
         <ResetCSS />
         <GlobalStyle />
-        {/* End of agency head section */}
-        {/* Start agency wrapper section */}
-        <AgencyWrapper>
+        {/* end of global and reset style */}
+
+        {/* start app minimal landing */}
+        <AppWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
           </Sticky>
-          <BannerSection />
-          <FeatureSection />
-          <AboutUsSection />
-          <WorkHistory />
-          <BlogSection />
-          <QualitySection />
-          <VideoSection />
-          <TestimonialSection />
-          <TeamSection />
-          <FaqSection />
-          <NewsletterSection />
-          <Footer />
-        </AgencyWrapper>
-        {/* End of agency wrapper section */}
-      </Fragment>
+          <ContentWrapper>
+            <Banner />
+            <KeyFeatures />
+            <ChooseUs />
+            <Features />
+            <WalletExperience />
+            <SecureTransaction />
+            <WalletDashboard />
+            <Track />
+          </ContentWrapper>
+          <GradientWrapper>
+            <Gallery />
+            <Counter />
+            <Pricing />
+            <Blog />
+            <CallToAction />
+            <Footer />
+          </GradientWrapper>
+        </AppWrapper>
+        {/* end of app minimal landing */}
+      </>
     </ThemeProvider>
   );
 };
-export default Agency;
+export default AppMinimal;
