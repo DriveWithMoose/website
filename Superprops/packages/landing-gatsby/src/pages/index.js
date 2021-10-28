@@ -31,7 +31,7 @@ const AppMinimal = () => {
   return (
     <ThemeProvider theme={theme}>
       <>
-        <Seo title="App Minimal | A react Gatsby landing page" />
+        <Seo title="Drive with Moose" />
         {/* end of head */}
 
         <ResetCSS />
@@ -50,16 +50,16 @@ const AppMinimal = () => {
             <KeyFeatures />
             <ChooseUs />
             <Features />
-            <WalletExperience />
-            <SecureTransaction />
+            {/* <WalletExperience /> */}
+            {/* <SecureTransaction /> */}
             <WalletDashboard />
-            <Track />
+            {/* <Track /> */}
           </ContentWrapper>
           <GradientWrapper>
-            <Gallery />
-            <Counter />
-            <Pricing />
-            <Blog />
+            {/* <Gallery /> */}
+            {/* <Counter /> */}
+            {/* <Pricing /> */}
+            {/* <Blog /> */}
             <CallToAction />
             <Footer />
           </GradientWrapper>

@@ -6,7 +6,7 @@
       "offset": "70"
     },
     {
-      "label": "Feature",
+      "label": "Features",
       "path": "#feature_section",
       "offset": "70"
     },
@@ -33,63 +33,57 @@
   ],
   "BannerData": {
     "image": "../../assets/image/app-minimal/banner-moc-1-1.png",
-    "title": "Only trusted wallet apps that make your day beautiful",
-    "text": "There will be a day–in our lifetime–when we get to celebrate every person on the planet having access. Moment Pro is the best software platform to collect reviews.",
-    "tagline": "*No Credit card required",
+    "title": "Drive well, save money",
+    "text": "At Moose, we believe that unbiased metrics should determine your insurance rate, not your age or gender. Moose rewards good drivers by analyzing these metrics right from your phone's camera.",
+    "tagline": "",
     "button": {
       "link": "#",
       "label": "Try it for free"
     }
   },
   "keyFeatures": {
-    "title": "Business start with great features",
-    "description": "Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents.",
+    "title": "Moose offers you a suite of tools",
+    "description": "Save money, and become a better driver.",
     "features": [
       {
         "id": 1,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-1.svg",
-        "title": "Analytics Report",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/key-feature/key-feature-2.svg",
+        "title": "Lower insurance rates",
+        "description": "The data we collect allows us to save you money."
       },
       {
         "id": 2,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-2.svg",
-        "title": "User Customization",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/key-feature/key-feature-1.svg",
+        "title": "Analytics",
+        "description": "We want you to become a better driver, and we'll show you how to improve."
       },
       {
         "id": 3,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-3.svg",
-        "title": "Help & Support",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
-      },
-      {
-        "id": 4,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-4.svg",
-        "title": "Use Accessibility",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/key-feature/key-feature-1.svg",
+        "title": "Analytics",
+        "description": "We want you to become a better driver, and we'll show you how to improve."
       }
     ]
   },
   "chooseUs": {
-    "title": "Why you choose Wallet app for your daily use?",
-    "description": "Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool.",
+    "title": "Why drive with Moose?",
+    "description": "",
     "thumbnail": "../../assets/image/app-minimal/choose-thumbnail.jpg",
     "features": [
       {
         "id": 1,
-        "title": "Easy to use application",
-        "description": "We’re driven beyond just finishing the projects. We want to find solutions."
+        "title": "Save money",
+        "description": "Unlike traditional insurance companies, our models will price your insurance solely from your own driving behavior, not from those of your peers."
       },
       {
         "id": 2,
-        "title": "Transfer to touch share",
-        "description": "We’re driven beyond just finishing the projects. We want to find solutions."
+        "title": "Quick and simple",
+        "description": "Download Moose and start driving immediately. We'll even send you a phone mount."
       },
       {
         "id": 3,
-        "title": "100% Reliable with Privacy",
-        "description": "We’re driven beyond just finishing the projects. We want to find solutions."
+        "title": "Become a better driver",
+        "description": "We’re driven beyond just insurance. We will help you improve your driving skills because we want our roads to be a safer place for everyone."
       }
     ]
   },
@@ -126,14 +120,14 @@
     ]
   },
   "features": {
-    "title": "So How Does UserPlace Work ?",
-    "description": "See some of the features below and learn why businesses trust UserPlace",
+    "title": "So How Does Moose Work?",
+    "description": "Learn why our users trust Moose",
     "items": [
       {
         "id": 1,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-1.svg",
-        "title": "Analytics Business",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/feature/feature-icon-2.svg",
+        "title": "Computer Vision and AI",
+        "description": "We use computer vision to collect your driving data, and use cutting-edge machine learning models to accurately price your insurance."
       },
       {
         "id": 2,
@@ -143,26 +137,8 @@
       },
       {
         "id": 3,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-3.svg",
-        "title": "Privacy & Security",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
-      },
-      {
-        "id": 4,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-4.svg",
-        "title": "Annual Reports",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
-      },
-      {
-        "id": 5,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-5.svg",
-        "title": "Video Tutorial",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
-      },
-      {
-        "id": 6,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-6.svg",
-        "title": "Performance Analysis",
+        "icon": "../../assets/image/app-minimal/feature/feature-icon-2.svg",
+        "title": "Artificial Intelligence",
         "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
       }
     ]
@@ -178,22 +154,22 @@
   "WalletDashboardData": [
     {
       "step": "Step 01",
-      "title": "Create a free Account",
+      "title": "Mount your phone",
       "image": "../../assets/image/app-minimal/wallet-dashboard-1.png"
     },
     {
       "step": "Step 02",
-      "title": "Verified your Account",
+      "title": "Start a new drive",
       "image": "../../assets/image/app-minimal/wallet-dashboard-1.png"
     },
     {
       "step": "Step 03",
-      "title": "Monitor your Dashboard",
+      "title": "Let Moose work its magic",
       "image": "../../assets/image/app-minimal/wallet-dashboard-1.png"
     },
     {
       "step": "Step 04",
-      "title": "Promote & Refer Account",
+      "title": "End your drive",
       "image": "../../assets/image/app-minimal/wallet-dashboard-1.png"
     }
   ],

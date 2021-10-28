@@ -18,7 +18,7 @@ export const MENU_ITEMS = [
     offset: '70',
   },
   {
-    label: 'Feature',
+    label: 'Features',
     path: '#feature_section',
     offset: '70',
   },
@@ -52,10 +52,10 @@ import bannerMoc from 'common/src/assets/image/app-minimal/banner-moc-1-1.png';
 
 export const BannerData = {
   image: bannerMoc,
-  title: 'Only trusted wallet apps that make your day beautiful',
+  title: 'Drive well, save money',
   text:
-    'There will be a day–in our lifetime–when we get to celebrate every person on the planet having access. Moment Pro is the best software platform to collect reviews.',
-  tagline: '*No Credit card required',
+    "At Moose, we believe that unbiased metrics should determine your insurance rate, not your age or gender. Moose rewards good drivers by analyzing these metrics right from your phone's camera.",
+  tagline: '',
   button: {
     link: '#',
     label: 'Try it for free',

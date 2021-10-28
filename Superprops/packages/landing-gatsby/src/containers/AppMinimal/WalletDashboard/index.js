@@ -35,10 +35,10 @@ const WalletDashboard = ({ secTitleWrapper, secText, secHeading }) => {
     <SectionWrapper id="dashboard_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Heading {...secHeading} content="How Wallet Dashboard Works" />
+          <Heading {...secHeading} content="How do you use Moose when driving?" />
           <Text
             {...secText}
-            content="Build an incredible workplace and grow your business with Gusto"
+            content="Follow 4 simple steps"
           />
         </Box>
         <Tabs
