@@ -49,7 +49,7 @@ const Footer = () => {
           />
           <CopyText>
             Copyright © {year}
-            <Link to="/">RedQ, Inc.</Link>
+            <Link to="/">Moose, Inc.</Link>
           </CopyText>
         </Left>
         <Menu>

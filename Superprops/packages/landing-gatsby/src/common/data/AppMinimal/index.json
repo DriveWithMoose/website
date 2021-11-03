@@ -33,35 +33,35 @@
   ],
   "BannerData": {
     "image": "../../assets/image/app-minimal/banner-moc-1-1.png",
-    "title": "Drive well, save money",
-    "text": "At Moose, we believe that unbiased metrics should determine your insurance rate, not your age or gender. Moose rewards good drivers by analyzing these metrics right from your phone's camera.",
+    "title": "The better you drive, the more you save.",
+    "text": "Meet Moose, your best friend on your road. Right from your smartphone, Moose analyzes and rewards great driving. With Moose, your insurance rate is now primarily based off how you drive.",
     "tagline": "",
     "button": {
       "link": "#",
-      "label": "Try it for free"
+      "label": "Join the waitlist!"
     }
   },
   "keyFeatures": {
-    "title": "Moose offers you a suite of tools",
-    "description": "Save money, and become a better driver.",
+    "title": "How Moose Supports You",
+    "description": "Moose transparently gathers data and reports back his findings.",
     "features": [
       {
         "id": 1,
         "icon": "../../assets/image/app-minimal/key-feature/key-feature-2.svg",
-        "title": "Lower insurance rates",
-        "description": "The data we collect allows us to save you money."
+        "title": "Lower Insurance Premium",
+        "description": "The data Moose gathers is used to hunt for your best insurance rate. "
       },
       {
         "id": 2,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-1.svg",
-        "title": "Analytics",
+        "icon": "../../assets/image/app-minimal/key-feature/key-feature-3.svg",
+        "title": "Instant Feedback",
         "description": "We want you to become a better driver, and we'll show you how to improve."
       },
       {
         "id": 3,
-        "icon": "../../assets/image/app-minimal/key-feature/key-feature-1.svg",
-        "title": "Analytics",
-        "description": "We want you to become a better driver, and we'll show you how to improve."
+        "icon": "../../assets/image/app-minimal/feature/feature-icon-6.svg",
+        "title": "Rewards",
+        "description": "The better you drive, the more points you collect. "
       }
     ]
   },
@@ -120,26 +120,26 @@
     ]
   },
   "features": {
-    "title": "So How Does Moose Work?",
-    "description": "Learn why our users trust Moose",
+    "title": "How Moose Works",
+    "description": "Moose is ready to flip the insurance script.",
     "items": [
       {
         "id": 1,
         "icon": "../../assets/image/app-minimal/feature/feature-icon-2.svg",
-        "title": "Computer Vision and AI",
-        "description": "We use computer vision to collect your driving data, and use cutting-edge machine learning models to accurately price your insurance."
+        "title": "A Second Pair of Eyes",
+        "description": "Moose uses computer vision to watch the road with you and alerts you in case of any dangers."
       },
       {
         "id": 2,
-        "icon": "../../assets/image/app-minimal/feature/feature-icon-2.svg",
-        "title": "Artificial Intelligence",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "icon": "../../assets/image/app-minimal/feature/feature-icon-1.svg",
+        "title": "You",
+        "description": "Everybody drives differently. So instead of depending mainly on your age or gender like traditional insurers, Moose mainly examines your driving wholistically to determine your rate. "
       },
       {
         "id": 3,
         "icon": "../../assets/image/app-minimal/feature/feature-icon-2.svg",
-        "title": "Artificial Intelligence",
-        "description": "We’re driven beyond just finishing the projects. We want to find smart solutions."
+        "title": "Artifical Intelligence",
+        "description": "Moose runs your driving data through cutting-edge machine learning models to determine the cheapest insurance premium."
       }
     ]
   },
